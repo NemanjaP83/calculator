@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "ignorePatterns": ["vite.config.js", "postcss.config.js"],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "no-undef": "warn",
+    "no-unused-vars": "warn",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off"
+  }
+}

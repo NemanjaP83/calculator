@@ -1,0 +1,21 @@
+$font-weights: (
+  'thin': 300,
+  'normal': 400,
+  'medium': 500,
+  'bold': 700,
+  'bolder': 900,
+);
+
+$font-sizes: (
+  'theme': 10px,
+  'calc': 26px,
+  'number': 32px,
+);
+
+@function font-weight($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+
+@function font-size($font-size) {
+  @return map-get($font-sizes, $font-size);
+}

@@ -1,0 +1,159 @@
+// The designs were created to the following widths:
+$mobile: 375px;
+$desktop: 1440px;
+
+// ############################################################### Theme 1 ######################################################################## //
+
+// #### Backgrounds
+// - Very dark desaturated blue (main background): hsl(222, 26%, 31%)
+$main-bg-1: hsl(221, 27%, 31%);
+
+// - Very dark desaturated blue (toggle background, keypad background): hsl(223, 31%, 20%)
+$keypad-bg-1: hsl(223, 31%, 20%);
+
+// - Very dark desaturated blue (screen background): hsl(224, 36%, 15%)
+$screen-bg-1: hsl(223, 37%, 15%);
+
+// #### Keys
+// - Desaturated dark blue (key background): hsl(225, 21%, 49%)
+$key-bg-1: hsl(225, 21%, 49%);
+
+// - Desaturated dark blue (key shadow): hsl(224, 28%, 35%)
+$key-shadow-1: hsl(223, 28%, 35%);
+
+// - Red (key background, toggle): hsl(6, 63%, 50%)
+$red-key-bg-1: hsl(6, 63%, 50%);
+
+// - Dark red (key shadow): hsl(6, 70%, 34%)
+$red-key-shadow-1: hsl(6, 70%, 34%);
+
+// - Light grayish orange (key background): hsl(30, 25%, 89%)
+$light-grayish-orange-1: hsl(30, 25%, 89%);
+
+// - Grayish orange (key shadow): hsl(28, 16%, 65%)
+$grayish-orange-1: hsl(29, 16%, 65%);
+
+// #### Text
+// - Very dark grayish blue: hsl(221, 14%, 31%)
+$grayish-blue-1: hsl(221, 14%, 31%);
+
+// - White: hsl(0, 0%, 100%)
+$white-1: hsl(0, 0%, 100%);
+
+:root[data-theme='theme-1'] {
+  --bg: #{$main-bg-1};
+  --keypad: #{$keypad-bg-1};
+  --screen: #{$screen-bg-1};
+  --key-bg: #{$key-bg-1};
+  --key-shadow: #{$key-shadow-1};
+  --red-key-bg: #{$red-key-bg-1};
+  --red-key-shadow: #{$red-key-shadow-1};
+  --light-grayish-orange: #{$light-grayish-orange-1};
+  --grayish-orange: #{$grayish-orange-1};
+  --text-grayish: #{$grayish-blue-1};
+  --text-white: #{$white-1};
+}
+
+// ############################################################### Theme 2 ######################################################################## //
+
+// #### Backgrounds
+// - Light gray (main background): hsl(0, 0%, 90%)
+$main-bg-2: hsl(0, 0%, 90%);
+
+// - Grayish red (toggle background, keypad background): hsl(0, 5%, 81%)
+$keypad-bg-2: hsl(0, 5%, 81%);
+
+// - Very light gray (screen background): hsl(0, 0%, 93%)
+$screen-bg-2: hsl(0, 0%, 93%);
+
+// #### Keys
+// - Dark moderate cyan (key background): hsl(185, 42%, 37%)
+$key-bg-2: hsl(185, 42%, 37%);
+
+// - Very dark cyan (key shadow): hsl(185, 58%, 25%)
+$key-shadow-2: hsl(185, 58%, 25%);
+
+// - Orange (key background, toggle): hsl(25, 98%, 40%)
+$red-key-bg-2: hsl(25, 98%, 40%);
+
+// - Dark orange (key shadow): hsl(25, 99%, 27%)
+$red-key-shadow-2: hsl(25, 99%, 27%);
+
+// - Light grayish yellow (key background): hsl(45, 7%, 89%)
+$light-grayish-orange-2: hsl(45, 7%, 89%);
+
+// - Dark grayish orange (key shadow): hsl(35, 11%, 61%)
+$grayish-orange-2: hsl(34, 11%, 61%);
+
+// #### Text
+// - Very dark grayish yellow: hsl(60, 10%, 19%)
+$grayish-blue-2: hsl(60, 9%, 19%);
+
+// - White (text): hsl(0, 0%, 100%)
+$white-2: hsl(0, 0%, 100%);
+
+:root[data-theme='theme-2'] {
+  --bg: #{$main-bg-2};
+  --keypad: #{$keypad-bg-2};
+  --screen: #{$screen-bg-2};
+  --key-bg: #{$key-bg-2};
+  --key-shadow: #{$key-shadow-2};
+  --red-key-bg: #{$red-key-bg-2};
+  --red-key-shadow: #{$red-key-shadow-2};
+  --light-grayish-orange: #{$light-grayish-orange-2};
+  --grayish-orange: #{$grayish-orange-2};
+  --text-grayish: #{$grayish-blue-2};
+  --text-white: #{$white-2};
+}
+
+// ############################################################### Theme 3 ######################################################################## //
+
+// #### Backgrounds
+// - Very dark violet (main background): hsl(268, 75%, 9%)
+$main-bg-3: hsl(268, 75%, 9%);
+
+// - Very dark violet (toggle background, keypad background, screen background): hsl(268, 71%, 12%)
+$keypad-bg-3: hsl(268, 71%, 12%);
+
+// #### Keys
+// - Dark violet (key background): hsl(281, 89%, 26%)
+$key-bg-3: hsl(281, 89%, 26%);
+
+// - Vivid magenta (key shadow): hsl(285, 91%, 52%)
+$key-shadow-3: hsl(285, 91%, 52%);
+
+// - Pure cyan (key background, toggle): hsl(176, 100%, 44%)
+$red-key-bg-3: hsl(176, 100%, 44%);
+
+// - Soft cyan (key shadow): hsl(177, 92%, 70%)
+$red-key-shadow-3: hsl(177, 92%, 70%);
+
+// - Very dark violet (key background): hsl(268, 47%, 21%)
+$light-grayish-orange-3: hsl(268, 47%, 21%);
+
+// - Dark magenta (key shadow): hsl(290, 70%, 36%)
+$grayish-orange-3: hsl(290, 70%, 36%);
+
+// #### Text
+// - Light yellow: hsl(52, 100%, 62%)
+$screen-bg-3: hsl(52, 100%, 62%);
+
+// - Very dark blue: hsl(198, 20%, 13%)
+$grayish-blue-3: hsl(198, 20%, 13%);
+
+// - White (text): hsl(0, 0%, 100%)
+$white-3: hsl(0, 0%, 100%);
+
+:root[data-theme='theme-3'] {
+  --bg: #{$main-bg-3};
+  --keypad: #{$keypad-bg-3};
+  --screen: #{$screen-bg-3};
+  --key-bg: #{$key-bg-3};
+  --key-shadow: #{$key-shadow-3};
+  --red-key-bg: #{$red-key-bg-3};
+  --red-key-shadow: #{$red-key-shadow-3};
+  --light-grayish-orange: #{$light-grayish-orange-3};
+  --grayish-orange: #{$grayish-orange-3};
+  --text-grayish: #{$grayish-blue-3};
+  --text-white: #{$white-3};
+}
