@@ -4,7 +4,7 @@ import './global.style.scss';
 import './src/scss/main.scss';
 
 // javascript
-import './src/js/calc.js';
+import './src/js/calculator';
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('Looks like we are in development mode!');

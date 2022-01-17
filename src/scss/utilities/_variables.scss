@@ -51,7 +51,10 @@ $white-1: hsl(0, 0%, 100%);
   --light-grayish-orange: #{$light-grayish-orange-1};
   --grayish-orange: #{$grayish-orange-1};
   --text-grayish: #{$grayish-blue-1};
-  --text-white: #{$white-1};
+  --white: #{$white-1};
+  --delBtn: #{$white-1};
+  --reset: #{$white-1};
+  --equal: #{$white-1};
 }
 
 // ############################################################### Theme 2 ######################################################################## //
@@ -89,7 +92,7 @@ $grayish-orange-2: hsl(34, 11%, 61%);
 // - Very dark grayish yellow: hsl(60, 10%, 19%)
 $grayish-blue-2: hsl(60, 9%, 19%);
 
-// - White (text): hsl(0, 0%, 100%)
+// - White: hsl(0, 0%, 100%)
 $white-2: hsl(0, 0%, 100%);
 
 :root[data-theme='theme-2'] {
@@ -103,7 +106,10 @@ $white-2: hsl(0, 0%, 100%);
   --light-grayish-orange: #{$light-grayish-orange-2};
   --grayish-orange: #{$grayish-orange-2};
   --text-grayish: #{$grayish-blue-2};
-  --text-white: #{$white-2};
+  --white: #{$grayish-blue-2};
+  --delBtn: #{$white-2};
+  --reset: #{$white-2};
+  --equal: #{$white-2};
 }
 
 // ############################################################### Theme 3 ######################################################################## //
@@ -141,19 +147,22 @@ $screen-bg-3: hsl(52, 100%, 62%);
 // - Very dark blue: hsl(198, 20%, 13%)
 $grayish-blue-3: hsl(198, 20%, 13%);
 
-// - White (text): hsl(0, 0%, 100%)
+// - White: hsl(0, 0%, 100%)
 $white-3: hsl(0, 0%, 100%);
 
 :root[data-theme='theme-3'] {
   --bg: #{$main-bg-3};
   --keypad: #{$keypad-bg-3};
-  --screen: #{$screen-bg-3};
+  --screen: #{$keypad-bg-3};
   --key-bg: #{$key-bg-3};
   --key-shadow: #{$key-shadow-3};
   --red-key-bg: #{$red-key-bg-3};
   --red-key-shadow: #{$red-key-shadow-3};
   --light-grayish-orange: #{$light-grayish-orange-3};
   --grayish-orange: #{$grayish-orange-3};
-  --text-grayish: #{$grayish-blue-3};
-  --text-white: #{$white-3};
+  --text-grayish: #{$screen-bg-3};
+  --white: #{$screen-bg-3};
+  --delBtn: #{$white-3};
+  --reset: #{$white-3};
+  --equal: #{$grayish-blue-3};
 }

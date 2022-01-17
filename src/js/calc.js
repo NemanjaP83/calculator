@@ -1,7 +1,7 @@
 // change color theme
-const btn = document.getElementsByTagName('input');
+const btnSwitch = document.getElementsByTagName('input');
 
-Array.from(btn).forEach((e) => {
+Array.from(btnSwitch).forEach((e) => {
   e.addEventListener('change', () => {
     if (e.value === '1') {
       document.documentElement.setAttribute('data-theme', 'theme-1');
