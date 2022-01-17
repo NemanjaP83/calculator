@@ -26,12 +26,4 @@ npm run preview
 
 to preview your application after **run build**
 
-### This project is configured for quick start
 
-- you can use css
-- or scss
-- includes css reset
-- includes linting
-- postcss
-- purgeCSS
-- autoprefixer
