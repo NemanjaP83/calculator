@@ -1,4 +1,4 @@
-# 🚀 Welcome to Vite starter!
+# 🚀 Calculator App
 
 This project has been created using **Vite**, you can now run:
 
