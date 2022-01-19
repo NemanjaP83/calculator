@@ -1,6 +1,10 @@
-# 🚀 Welcome to Vite starter!
+# _[Frontendmentor](https://www.frontendmentor.io/challenges)_ challange - **Calculator**
 
-This project has been created using **Vite**, you can now run:
+![calculator](/calc.jpg)
+
+## 🚀 How to start project
+
+#### This project has been created using **Vite**, you can now run:
 
 ```
 npm install
@@ -26,12 +30,6 @@ npm run preview
 
 to preview your application after **run build**
 
-### This project is configured for quick start
+## Live preview
 
-- you can use css
-- or scss
-- includes css reset
-- includes linting
-- postcss
-- purgeCSS
-- autoprefixer
+#### [Calculator App](https://calculator-nemanjap83.vercel.app/) <-- click on link for live preview
